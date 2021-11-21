@@ -15,9 +15,9 @@ public class ProcessAB extends Process<EntityA, EntityB> {
 
     @Bean
     public Function<KStream<Key, Message<EntityA>>,
-                    KStream<Key, Message<EntityB>>> transform_a_b() {
+                    KStream<Key, Message<EntityB>>> a_2_b() {
         return in -> in
-                .mapValues(v -> transform(v, new TransformAB() ) )
+                .flatMapValues(v -> transform(v, new TransformAB() ) )
                 .selectKey( (k,v) -> v.getKey());
     }
 
