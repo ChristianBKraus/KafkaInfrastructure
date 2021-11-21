@@ -15,6 +15,8 @@ public class Process<A extends IEntity, B extends IEntity> {
                 in.getKey(),
                 in.getOrigin(),
                 Types.StatusCode.INITIAL,
+                in.getCreatedAt(),
+                in.getCreatedBy(),
                 out);
     }
 

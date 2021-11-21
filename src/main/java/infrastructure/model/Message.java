@@ -9,5 +9,7 @@ public class Message<A extends IEntity> {
     Key predecessor;
     Key origin;
     Types.StatusCode statusCode;
+    String createdAt;
+    String createdBy;
     A payload;
 }
