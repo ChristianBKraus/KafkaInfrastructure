@@ -1,4 +1,4 @@
-package infrastructure.model;
+package jupiterpa.infrastructure.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

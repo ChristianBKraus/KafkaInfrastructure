@@ -1,9 +1,11 @@
-package infrastructure.model;
+package jupiterpa.infrastructure.model;
 
-import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
-@Data @AllArgsConstructor
+import java.util.List;
+
+@Data @Builder( toBuilder = true )
 public class Message<A extends IEntity> {
     Key key;
     Key predecessor;
@@ -11,5 +13,7 @@ public class Message<A extends IEntity> {
     Types.StatusCode statusCode;
     String createdAt;
     String createdBy;
+    List<ErrorMessage> errorMessages;
+
     A payload;
 }

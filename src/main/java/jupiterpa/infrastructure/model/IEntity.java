@@ -1,4 +1,4 @@
-package infrastructure.model;
+package jupiterpa.infrastructure.model;
 
 public interface IEntity {
     String getType();

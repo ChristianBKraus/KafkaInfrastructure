@@ -1,7 +1,6 @@
-package infrastructure.service;
+package jupiterpa.infrastructure.service;
 
-import infrastructure.model.BusinessException;
-import infrastructure.model.IEntity;
+import jupiterpa.infrastructure.model.IEntity;
 
 import java.util.List;
 

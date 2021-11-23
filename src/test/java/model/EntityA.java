@@ -1,6 +1,6 @@
 package model;
 
-import infrastructure.model.IEntity;
+import jupiterpa.infrastructure.model.IEntity;
 import lombok.Data;
 
 @Data

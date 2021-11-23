@@ -1,9 +1,9 @@
-package infrastructure;
+package jupiterpa.infrastructure;
 
-import appl.TransformAB;
-import infrastructure.model.Key;
-import infrastructure.model.Message;
-import infrastructure.service.Process;
+import jupiterpa.appl.TransformAB;
+import jupiterpa.infrastructure.model.Key;
+import jupiterpa.infrastructure.model.Message;
+import jupiterpa.infrastructure.service.Process;
 import model.EntityA;
 import model.EntityB;
 import org.apache.kafka.streams.kstream.KStream;

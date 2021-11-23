@@ -1,4 +1,4 @@
-package infrastructure.model;
+package jupiterpa.infrastructure.model;
 
 public class Types {
     public enum StatusCode {
